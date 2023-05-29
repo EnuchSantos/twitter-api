@@ -174,3 +174,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+data
