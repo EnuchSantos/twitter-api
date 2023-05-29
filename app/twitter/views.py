@@ -48,4 +48,4 @@ class TweetViewSet(viewsets.ModelViewSet):
             return Response(serializer.data)
         elif users_tweets == None:
             return Response({'erros': 'users donts have tweets'}, status=status.HTTP_204_NO_CONTENT)
-        return Response({'erros': 'users no extis'}, status=status.HTTP_400_BAD_REQUEST)
+        return Response({'erros': 'users no exists'}, status=status.HTTP_400_BAD_REQUEST)
