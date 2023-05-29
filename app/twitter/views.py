@@ -9,7 +9,6 @@ from .services import UserService, TweetService
 
 
 class UserViewSet(viewsets.ModelViewSet):
-    # permission_classes = [permissions.IsAuthenticated,]
     queryset = User.objects.all()
     serializer_class = UserSerializer
 
@@ -29,7 +28,7 @@ class UserViewSet(viewsets.ModelViewSet):
 
 
 class TweetViewSet(viewsets.ModelViewSet):
-    # permission_classes = [permissions.IsAuthenticated,]
+    permission_classes = [permissions.IsAuthenticated,]
     queryset = Tweet.objects.all()
     serializer_class = TweetSerializer
 
