@@ -29,5 +29,5 @@ comando 'python manage.py migrate' agora ele cria as tabelas e estão prontas pa
 
 * Rodando a aplicação
 
-Agora que já foi tudo configurado só precisamos rodar o comando 'python manage.py runserver' e acessar a url: http://http://127.0.0.1:8000/
+Agora que já foi tudo configurado só precisamos rodar o comando 'python manage.py runserver' e acessar a url: http://127.0.0.1:8000/
 você será redirecionado para a API ROOT do django rest framework, aqui tem alguns endpoints para navegar pela API.
