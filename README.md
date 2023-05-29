@@ -35,3 +35,5 @@ você será redirecionado para a API ROOT do django rest framework, aqui tem alg
 * Modelagem do banco de dados
 
 link: https://lucid.app/lucidchart/a24655dd-a715-411c-a41b-9a318eafac3b/edit?viewport_loc=-1295%2C-637%2C1692%2C1038%2C0_0&invitationId=inv_1874edcd-c396-491b-86d4-b4bfff6121b7
+
+caso não tenha conta, segue o link da imagem: https://github.com/EnuchSantos/twitter-api/blob/main/database_model.png
