@@ -3,6 +3,16 @@
 Bom, está é uma API feita com Django Rest Framework e Django.
 O modelo é para simular algumas funcionalidades do twitter, como criar um user, logar, seguir um user, postar um tweet e ver o tweet de outros usuários que você segue.
 
+
+## Docker
+O projeto está num formato para ser rodado dentro do ambiente docker, ou seja caso você utilize o docker só precisa seguir o tutorial abaixo normalmente e no final dar o comando "docker-compose up --build"
+
+Para caso você não tenha o docker instalado e quer rodar o projeto no seu pc, aqui vai um pequeno passo a passo:
+No arquivo settings, onde tiver "os.getenv('algo', 'change-me') no change-me você pode passar o valor correto, isso é para as conexões de banco em DATABASE e hosts em ALLOWED_HOSTS, DEBUG e SECRET_KEY
+obs: caso não saiba os valores padrões, pode buscar no site: https://www.django-rest-framework.org/
+
+ou também pode baixar essa versão onde do aplicativo ser dockerizado: https://github.com/EnuchSantos/twitter-api/tree/885b609289c68c3935af75400a9b9611192b101c
+
 ## Configurando o projeto
 * Ambiente virtual
 
