@@ -31,3 +31,7 @@ comando 'python manage.py migrate' agora ele cria as tabelas e estão prontas pa
 
 Agora que já foi tudo configurado só precisamos rodar o comando 'python manage.py runserver' e acessar a url: http://127.0.0.1:8000/
 você será redirecionado para a API ROOT do django rest framework, aqui tem alguns endpoints para navegar pela API.
+
+* Modelagem do banco de dados
+
+link: https://lucid.app/lucidchart/a24655dd-a715-411c-a41b-9a318eafac3b/edit?viewport_loc=-1295%2C-637%2C1692%2C1038%2C0_0&invitationId=inv_1874edcd-c396-491b-86d4-b4bfff6121b7
